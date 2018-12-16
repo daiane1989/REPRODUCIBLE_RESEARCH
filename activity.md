@@ -17,7 +17,7 @@ output: html_document
 
 ```r
 library(readr)
-activity = as.data.frame(read_csv("C:/Users/Daiane/Desktop/COURSERA/REPRODUCIBLE RESEARCH/SEMANA2/activity.csv"
+activity = read_csv("activity.csv"
 ,col_types = cols(date = col_date(format = "%Y-%m-%d"))))
 ```
 &nbsp;
@@ -279,7 +279,7 @@ median(steps_subs$steps)
 
 
 ```r
-data_subs2 = mutate(data_subs, weektype = ifelse(weekdays(data_subs$date) == "s·bado" | weekdays(data_subs$date) == "domingo", "weekend", "weekday"))
+data_subs2 = mutate(data_subs, weektype = ifelse(weekdays(data_subs$date) == "s√°bado" | weekdays(data_subs$date) == "domingo", "weekend", "weekday"))
 
 data_subs2$weektype = as.factor(data_subs2$weektype)
 head(data_subs2)
