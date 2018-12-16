@@ -23,7 +23,7 @@ activity = read_csv("activity.csv"
 &nbsp;
 
 
-#####Show data set 
+Show data set 
 
 
 ```r
@@ -75,7 +75,7 @@ library(dplyr)
 
 &nbsp;
 
-#####2)Histogram of the total number of steps taken each day 
+2)Histogram of the total number of steps taken each day 
 
 
 ```r
@@ -197,7 +197,7 @@ interval[which.max(interval$st_media),]
 &nbsp;
 
 
-#####6)Code to describe and show a strategy for imputing missing data
+6)Code to describe and show a strategy for imputing missing data
 *  Replacee the missing values
 
 
@@ -271,7 +271,7 @@ median(steps_subs$steps)
 
 &nbsp;
 
-#####8)Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
+8)Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
 &nbsp;
 
