@@ -12,7 +12,7 @@ output: html_document
 
 &nbsp;
 
-##1)IMPORT DATA SET 
+1)IMPORT DATA SET 
 
 
 ```r
